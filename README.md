@@ -1,1 +1,1 @@
-# SchoolDeliveryNet
+# 学校配信ネット
