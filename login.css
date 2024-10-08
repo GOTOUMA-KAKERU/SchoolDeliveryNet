@@ -1,0 +1,56 @@
+@charset 'utf-8';
+
+
+html,body {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(45deg,#062411,#00c749);
+    font-family: serif;
+}
+
+.form_bg{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    min-width: 320px;
+    max-width: 500px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 10vh auto 5vh auto;
+}
+
+#pass,#email{
+    min-width: 280px;
+    max-width: 60vw;
+    margin: 7px auto;
+    outline: none;
+    text-align: center;
+    border: #109421 2px solid;
+    border-radius: 5px;
+    height: 2rem;
+}
+button{
+    min-width: 288px;
+    max-width: 60vw;
+    height: 3em;
+    border-radius: 5px;
+    margin: 7px auto;
+    margin-bottom: 10vh;
+    border: none;
+    background-color: #109421;
+    color: aliceblue;
+}

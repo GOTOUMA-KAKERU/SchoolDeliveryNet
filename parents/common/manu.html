@@ -1,0 +1,56 @@
+<header>
+    <h1>OO校配信web</h1>
+</header>
+
+<div class="manu-main">
+    <div class="menu">
+        <ul>
+            <li><a href="../contact/index.php">連絡</a></li>
+            <li><a href="../contact/index.php">配信</a></li>
+            <li><a href="../contact/index.php">このアプリについて</a></li>
+        </ul>
+    </div>
+
+<style>
+body,html{
+    margin: 0;
+}
+
+header{
+    height: 50px;
+    background: linear-gradient(45deg,#003200,#317a00,#bdbb00);
+}
+
+    header h1{
+        margin: 0 0 0 10px;
+        color: #ffffff;
+    }
+
+.manu-main{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: calc(100vh - 50px);
+}
+
+    .menu{
+        background-color: #003200;
+    }
+    .menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li{
+        height: 1em;
+        padding: 1em 0 1em 10px;
+        list-style: none;
+        text-decoration-line: none;
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+    }
+        .menu ul li:hover{
+            background-color: #317a00;
+        }
+</style>
