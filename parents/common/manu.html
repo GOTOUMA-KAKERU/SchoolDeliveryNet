@@ -1,8 +1,8 @@
 <header>
-    <h1>OO校配信web</h1>
+    <h1>配信web</h1>
 </header>
 
-<div class="manu-main">
+<div class="all">
     <div class="menu">
         <ul>
             <li><a href="../contact/index.php">連絡</a></li>
@@ -26,10 +26,11 @@ header{
         color: #ffffff;
     }
 
-.manu-main{
+.all{
     display: grid;
     grid-template-columns: 300px 1fr;
     height: calc(100vh - 50px);
+    background-color: #4a852c;
 }
 
     .menu{
@@ -53,4 +54,15 @@ header{
         .menu ul li:hover{
             background-color: #317a00;
         }
+#main-bg{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 50px);
+}
+#main{
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    height: 1000px;
+}
 </style>

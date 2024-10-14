@@ -15,8 +15,17 @@
         <?php include($_SERVER['DOCUMENT_ROOT']."\parents\common\manu.html"); ?>
 
             <!--本体-->
-            <div>
-
+            <div id="main-bg">
+                <div id="main">
+                    <h2>配信</h2>
+                    <!--リスト-->
+                    <div class="list">
+                        <a href="../../contacts/1.php">
+                            <h3>AAAA</h3>
+                            <p>内容が来ます</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         
