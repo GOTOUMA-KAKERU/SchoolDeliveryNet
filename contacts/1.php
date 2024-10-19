@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <?php $title = "AAAAA" ?>
+        <?php $title = "お知らせNo.1" ?>
         <!--基本情報-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
@@ -15,8 +15,7 @@
         <!--共通-->
         <!--ヘッダー兼メニュー-->
         <header>
-            <a href="javascript:history.back();"></a>
-            <a href=""><img src="" alt=""></a>
+            <a href="javascript:window.history.back();"><img src="./BackButton.svg" alt=""></a>
             <h1><?php echo"$title" ?></h1>
         </header>
         <?php include($_SERVER['DOCUMENT_ROOT']."../parents/common/contact-manu.html"); ?>
