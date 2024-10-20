@@ -8,17 +8,23 @@
 .list{
     margin-left: 1em;
     margin-right: 1em;
-    border-top: #000000 1px solid;
     border-bottom: #000000 1px solid;
 }
     .list a{
         text-decoration: none;
         color: #000000;
     }
+        .list:hover{
+            background-color: #c0c0c0;
+        }
+
     .list h3{
         color: #003200;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
+    }
+    .list h3 .date{
+        font-size: 0.7em;
     }
     .list p{
         margin-top: 0.5em;

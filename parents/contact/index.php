@@ -17,17 +17,17 @@
             <!--本体-->
             <div id="main-bg">
                 <div id="main">
-                    <h2>配信</h2>
+                    <h2>連絡</h2>
                     <!--リスト-->
                     <div class="list">
                         <a href="../../contacts/1.php">
-                            <h3>AAAA</h3>
+                            <h3>AAAA    <span class="date">(2024/10/20)</span></h3>
                             <p>内容が来ます</p>
                         </a>
                     </div>
+                    
                 </div>
             </div>
         </div>
-        
     </body>
 </html>
