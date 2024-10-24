@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+#main h2{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.list{
+    margin-left: 1em;
+    margin-right: 1em;
+    border-bottom: #000000 1px solid;
+}
+    .list a{
+        text-decoration: none;
+        color: #000000;
+        display: flex;
+    }
+        .list:hover{
+            background-color: #c0c0c0;
+        }
+
+    .list img{
+        width: 70px;
+    }
+    .list h3{
+        color: #003200;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .list h3 .date{
+        font-size: 0.7em;
+    }
